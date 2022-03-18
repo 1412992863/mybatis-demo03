@@ -28,6 +28,7 @@ public class MyBatisTest {
         System.out.println(studentDao.getStudent(5));
         session.close();
         System.out.println("hello");
+        System.out.println(111);
     }
 
     @Test
