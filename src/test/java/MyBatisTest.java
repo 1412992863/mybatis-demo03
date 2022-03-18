@@ -27,7 +27,7 @@ public class MyBatisTest {
         //单条件查询
         System.out.println(studentDao.getStudent(5));
         session.close();
-        System.out.println("world");
+        System.out.println("hello");
     }
 
     @Test
