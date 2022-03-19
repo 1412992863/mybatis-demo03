@@ -102,4 +102,9 @@ public class MyBatisTest {
             System.out.println(customer);
         session.close();
     }
+    
+    @Test
+    public void pullTest() {
+        System.out.println("pulltest");
+    }
 }
