@@ -101,5 +101,6 @@ public class MyBatisTest {
         for (Customer customer : customers)
             System.out.println(customer);
         session.close();
+        System.out.println("11");
     }
 }
