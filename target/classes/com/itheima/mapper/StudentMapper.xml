@@ -8,10 +8,10 @@ mybatis会依据这个接口动态创建一个实现类去实现这个接口，
 而这个实现类是一个Mapper对象-->
 <mapper namespace="com.itheima.Dao.StudentDao">
     <resultMap id="StudentList" type="Student">
-        <result column="id"  property="id" javaType="INTEGER"/>
-        <result column="name"  property="name" javaType="String"/>
-        <result column="major"  property="major" javaType="String"/>
-        <result column="sno"  property="sno" javaType="INTEGER"/>
+        <result column="id" property="id" javaType="INTEGER"/>
+        <result column="name" property="name" javaType="String"/>
+        <result column="major" property="major" javaType="String"/>
+        <result column="sno" property="sno" javaType="INTEGER"/>
     </resultMap>
     <select id="getStudents" parameterType="Student" resultMap="StudentList">
         select * from dm_student
